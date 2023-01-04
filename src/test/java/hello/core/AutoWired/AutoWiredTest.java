@@ -24,7 +24,7 @@ public class AutoWiredTest {
         }
 
         @Autowired
-        public void setNoBean2(@Nullable Member noBean2) { //noBean2는 널
+        public void setNoBean2(@Nullable Member noBean2) { //noBean2는 null
             System.out.println("noBean2 = " + noBean2);
         }
 
