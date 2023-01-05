@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08548578-78c1-48ed-9c8b-93117fb04a8e" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scope/PrototypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scope/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,53 +70,7 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrototypeTest.prototypeBeanFind">
-    <configuration name="BeanLifeCycleTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.lifecycle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.lifecycle" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.BeanLifeCycleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanLifeCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.lifecycle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.lifecycle" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.BeanLifeCycleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanLifeCycleTest.lifeCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.lifecycle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.lifecycle" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.BeanLifeCycleTest" />
-      <option name="METHOD_NAME" value="lifeCycleTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SingletonWithPrototypeTest1 (1)">
     <configuration name="PrototypeTest.prototypeBeanFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -150,6 +103,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonWithPrototypeTest1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonWithPrototypeTest1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonWithPrototypeTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonWithPrototypeTest1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonWithPrototypeTest1.prototypeFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonWithPrototypeTest1" />
+      <option name="METHOD_NAME" value="prototypeFind" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="core.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.core.CoreApplication" />
@@ -159,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingletonWithPrototypeTest1 (1)" />
+        <item itemvalue="JUnit.SingletonWithPrototypeTest1.prototypeFind" />
+        <item itemvalue="JUnit.SingletonWithPrototypeTest1" />
         <item itemvalue="JUnit.PrototypeTest.prototypeBeanFind" />
         <item itemvalue="JUnit.SingletonTest.singletionBeanFind" />
-        <item itemvalue="JUnit.BeanLifeCycleTest (1)" />
-        <item itemvalue="JUnit.BeanLifeCycleTest.lifeCycleTest" />
-        <item itemvalue="JUnit.BeanLifeCycleTest" />
       </list>
     </recent_temporary>
   </component>
