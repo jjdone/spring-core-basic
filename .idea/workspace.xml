@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08548578-78c1-48ed-9c8b-93117fb04a8e" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/order/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/order/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,39 +71,39 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.core.test의 전부">
-    <configuration name="AutoAppConfigTest.basicScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BeanLifeCycleTest.lifeCycleTest">
+    <configuration name="BeanLifeCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.scan.filter.*" />
+          <option name="PATTERN" value="hello.core.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scan" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scan.AutoAppConfigTest" />
-      <option name="METHOD_NAME" value="basicScan" />
+      <option name="PACKAGE_NAME" value="hello.core.lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.BeanLifeCycleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanLifeCycleTest.lifeCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.BeanLifeCycleTest" />
+      <option name="METHOD_NAME" value="lifeCycleTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ComponentFilterAppConfigTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.scan.filter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scan.filter" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scan.filter.ComponentFilterAppConfigTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComponentFilterAppConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanLifeCycleTest.lifeCycleTest" />
+        <item itemvalue="JUnit.BeanLifeCycleTest" />
         <item itemvalue="JUnit.core.test의 전부" />
         <item itemvalue="JUnit.ComponentFilterAppConfigTest (1)" />
         <item itemvalue="JUnit.ComponentFilterAppConfigTest.filterScan" />
-        <item itemvalue="JUnit.ComponentFilterAppConfigTest" />
-        <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
       </list>
     </recent_temporary>
   </component>
