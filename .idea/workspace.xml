@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="08548578-78c1-48ed-9c8b-93117fb04a8e" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/common/MyLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/common/MyLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/web/LogDemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/web/LogDemoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/web/LogDemoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/web/LogDemoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/common/MyLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/common/MyLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/web/LogDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/web/LogDemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/web/LogDemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/web/LogDemoService.java" afterDir="false" />
     </list>
