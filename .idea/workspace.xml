@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08548578-78c1-48ed-9c8b-93117fb04a8e" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/scope/SingletonWithPrototypeTest1$PrototypeBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/scope/SingletonWithPrototypeTest1$PrototypeBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/scope/SingletonWithPrototypeTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/scope/SingletonWithPrototypeTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,40 +76,23 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SingletonWithPrototypeTest1 (1)">
-    <configuration name="PrototypeTest.prototypeBeanFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.scope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scope" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scope.PrototypeTest" />
-      <option name="METHOD_NAME" value="prototypeBeanFind" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonTest.singletionBeanFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.scope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scope" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonTest" />
-      <option name="METHOD_NAME" value="singletionBeanFind" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SingletonWithPrototypeTest1">
     <configuration name="SingletonWithPrototypeTest1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonWithPrototypeTest1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonWithPrototypeTest1 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
@@ -149,6 +138,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonWithPrototypeTest1.singletonClientUsePrototype" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonWithPrototypeTest1" />
+      <option name="METHOD_NAME" value="singletonClientUsePrototype" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="core.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.core.CoreApplication" />
@@ -158,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingletonWithPrototypeTest1" />
+        <item itemvalue="JUnit.SingletonWithPrototypeTest1.singletonClientUsePrototype" />
+        <item itemvalue="JUnit.SingletonWithPrototypeTest1 (2)" />
         <item itemvalue="JUnit.SingletonWithPrototypeTest1 (1)" />
         <item itemvalue="JUnit.SingletonWithPrototypeTest1.prototypeFind" />
-        <item itemvalue="JUnit.SingletonWithPrototypeTest1" />
-        <item itemvalue="JUnit.PrototypeTest.prototypeBeanFind" />
-        <item itemvalue="JUnit.SingletonTest.singletionBeanFind" />
       </list>
     </recent_temporary>
   </component>
