@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08548578-78c1-48ed-9c8b-93117fb04a8e" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/discount/FireSaleDiscountPolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/member/MemoryMemberRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +73,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.core.member" />
       <recent name="hello.core.discount" />
       <recent name="hello.core.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FireSaleDiscountPolicyTest">
+  <component name="RunManager" selected="JUnit.MemoryMemberRepositoryTest.save">
     <configuration name="FireSaleDiscountPolicyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -125,10 +126,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="core.test의 전부 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemoryMemberRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.member" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.member.MemoryMemberRepositoryTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemoryMemberRepositoryTest.save" />
         <item itemvalue="JUnit.FireSaleDiscountPolicyTest" />
         <item itemvalue="JUnit.FireSaleDiscountPolicyTest.vip_x" />
         <item itemvalue="JUnit.FireSaleDiscountPolicyTest.vip_o" />
         <item itemvalue="JUnit.core.test의 전부 (2)" />
-        <item itemvalue="JUnit.core.test의 전부 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +180,8 @@
       <workItem from="1672472497909" duration="9931000" />
       <workItem from="1672489212938" duration="26458000" />
       <workItem from="1673008075612" duration="19000" />
-      <workItem from="1673009146124" duration="2999000" />
+      <workItem from="1673009146124" duration="3091000" />
+      <workItem from="1673177932870" duration="2551000" />
     </task>
     <servers />
   </component>
